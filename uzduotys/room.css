@@ -1,0 +1,13 @@
+.roomDiv{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 500px;
+}
+
+.roomDiv p, .roomDiv button, .roomDiv input{
+  margin-bottom: 20px;
+}
+
+.btn {
+  grid-column: span 2;
+}
